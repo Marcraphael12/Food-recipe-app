@@ -1,8 +1,88 @@
 .Header {
+  width: 100%;
+  height: 100px;
   background-color: #fff;
   border-bottom: 1px solid #e1e4e8;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0 16px;
+  padding: 10px 16px;
+
+  @media only screen and (max-width: 400px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 16px;
+  }
+
+  >.logo {
+    min-width: 80px;
+    max-width: 80px;
+    height: auto;
+    display: flex;
+
+    @media only screen and (max-width: 400px) {
+      display: none;
+    }
+
+    >img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  >.nav-form {
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @media only screen and (max-width: 400px) {
+      width: 100%;
+    }
+
+    >form {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-end;
+
+      >input {
+        width: 100%;
+        height: 30px;
+        border: none;
+        border-bottom: 1px solid #38b6ff;
+        color: #f94616;
+        border-radius: 5px;
+        border-bottom-right-radius: 0;
+        padding: 0 5px;
+        outline: none;
+
+        &:focus {
+          border-bottom: 1px solid #f94616;
+        }
+
+        &::placeholder {
+          color: #f947168f;
+          font-size: 12px;
+        }
+      }
+
+      >button {
+        font-family: "Montserrat", sans-serif;
+        font-size: 0.813rem;
+        color: #38b6ff;
+        background-color: #fff;
+        border: 2px solid #38b6ff;
+        border-radius: 15px;
+        padding: 10px 15px;
+
+        &:hover {
+          color: #fff;
+          background-color: #38b6ff;
+        }
+      }
+    }
+  }
 }
