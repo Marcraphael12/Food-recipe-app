@@ -1,16 +1,12 @@
 .Header {
   width: 100%;
   height: 100px;
-
   background-color: #fff;
-
   border-bottom: 1px solid #e1e4e8;
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-
   padding: 10px 16px;
 
   @media only screen and (max-width: 400px) {
@@ -40,7 +36,6 @@
   >.nav-form {
     width: 300px;
     height: auto;
-    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
