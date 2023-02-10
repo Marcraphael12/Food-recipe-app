@@ -7,6 +7,7 @@ import Header from './components/header/Header';
 
 import Home from './components/Home/Home';
 import About from './components/About/About';
+import Mockup from './components/Mockup/mockup';
 
 const App = () => (
   <>
@@ -14,6 +15,7 @@ const App = () => (
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="about" element={<About />} />
+      <Route path="seemore" element={<Mockup />} />
     </Routes>
   </>
 );
