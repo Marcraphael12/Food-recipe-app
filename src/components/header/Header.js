@@ -10,10 +10,6 @@ const Header = () => (
     <NavLink className="logo" to="/"><img src={RecipeFinder} alt="App logo" /></NavLink>
     <div className="nav-form">
       <Navigation />
-      <form>
-        <input type="search" placeholder="search for an engredient eg: egg,beef" />
-        <button type="submit">search</button>
-      </form>
     </div>
   </div>
 );

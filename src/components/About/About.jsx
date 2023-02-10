@@ -1,7 +1,7 @@
 import React from 'react';
 
 const About = () => {
-  const text = 'I am a text';
+  const text = 'Food recipes app, made with React, Redux, React Router, React Hooks, and TheMealDB API.';
 
   return (
     <div>
