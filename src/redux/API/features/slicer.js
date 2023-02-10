@@ -13,7 +13,6 @@ const foodSlice = (state = initialState, action) => {
       const food = state;
       const { payload } = action;
       const newFood = food.food.map((category) => {
-        console.log(category);
         if (category.category_id === payload) {
           return { ...category, joined: true };
         }
