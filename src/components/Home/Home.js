@@ -11,11 +11,10 @@ export const WorkDone = (dataFetched) => {
   const dispatch = useDispatch();
   const data = useSelector((state) => state.food.food);
   const foods = Object.values(data);
-  console.log(foods);
 
   useEffect(() => {
     dispatch(dataFetched());
-  }, []);
+  }, [dataFetched, dispatch]);
 
   return foods;
 };
