@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render the categories list Renders the selected category correctly as mockup 1`] = `
+<div
+  className="mockup"
+>
+  <a
+    aria-current="page"
+    className="back active"
+    href="/"
+    onClick={[Function]}
+  >
+    ◀
+  </a>
+</div>
+`;
