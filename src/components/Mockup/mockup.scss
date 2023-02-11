@@ -13,7 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    background-color: #002364;
     border-radius: 10px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -23,14 +23,14 @@
   >div {
     width: 100%;
     height: auto;
-    background-color: #fff;
+    background-color: #002364;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     padding: 10px;
     margin-top: 10px;
-    border: 2px solid #f94616;
+    border: 2px solid #0d43aa;
     border-radius: 15px;
 
     >img {
@@ -41,7 +41,7 @@
     >h2 {
       font-family: "Montserrat", sans-serif;
       font-size: 16px;
-      color: #f94616;
+      color: #fff;
       padding: 10px 0;
     }
 
@@ -54,7 +54,7 @@
       padding: 10px 0;
       text-align: center;
       font-size: 14px;
-      color: #000;
+      color: #fff;
     }
 
     >a {
@@ -68,7 +68,7 @@
         justify-content: center;
         align-items: center;
         padding: 10px 0;
-        background-color: #f94616;
+        background-color: #003699;
         border: none;
         border-radius: 15px;
         font-size: 14px;
