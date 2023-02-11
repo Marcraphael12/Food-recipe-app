@@ -17,15 +17,12 @@
     width: 100%;
     max-width: 300px;
     height: auto;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-
     padding: 10px;
     margin: 10px;
-
     border: 2px solid #0d43aa;
     border-radius: 15px;
 
@@ -45,7 +42,6 @@
       font-size: 16px;
       color: #fff;
       padding: 10px 0;
-
       align-self: flex-end;
     }
 
@@ -69,21 +65,17 @@
       height: 50px;
       background: none;
       align-self: flex-end;
-
       border-radius: 50%;
+
       >button {
         width: 100%;
         height: 100%;
-  
         display: flex;
         justify-content: center;
         align-items: center;
-
         padding: 10px 0;
-
         border-radius: 50%;
         border: 2px solid #fff;
-
         background: none;
         font-size: 14px;
         color: #fff;
