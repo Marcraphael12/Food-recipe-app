@@ -149,6 +149,9 @@ Contributions are welcome...
 - TheMealDB for the API.
 🚩 Official Website [TheMealDB API](https://www.themealdb.com/api.php)
 
+- Nelson Sakva for Original Design 
+🚩 Official Behance Page [@NelsonSakva](https://www.behance.net/sakwadesignstudio)
+
 - Netlifly for deploying
 🚩 Official Website [Netlifly](https://app.netlify.com/)
 
