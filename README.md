@@ -56,7 +56,7 @@
 
 - 👉 Want to take a look at the Website :- [Live](https://marcfoodrecipes.netlify.app/)
 
-- 👉 Loom Video about the App :- [Video](https://www.loom.com/share/5a8587dc420a4eb492c32e482ea7e051)
+- 👉 Loom Video about the App :- [Video](https://youtu.be/D7tqm9UaGXo)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
